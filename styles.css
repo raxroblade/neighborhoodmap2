@@ -1,0 +1,146 @@
+html, body, #map {
+	font-family: Arial, sans-serif;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+input {
+	font-size: 12px;
+}
+h1 {
+	color: #525454;
+	font-size: 22px;
+	margin: 0 0 10px 0;
+	text-align: center;
+}
+.h3 {
+	position: relative;
+	top: 10px;
+}
+#search {
+	background-color: transparent;
+	background-color: rgba(250, 250, 250, .5);
+	border: 1px solid #999;
+	border-radius: 3px;
+	top: 80px;
+	height: 100px;
+	line-height: 35px;
+	padding: 10px 10px 30px 10px;
+	text-align: left;
+	width: 240px;
+	position: absolute;
+	left: 30px;
+	border: 1px solid #d3d3d3;
+	text-align: center;
+	z-index: 6;
+}
+#sort {
+	position: absolute;
+	left: 30px;
+	top: 224px;
+	width: 240px;
+	padding: 10px 10px 30px 10px;
+	margin-right: 10px;
+	border: 1px solid #d3d3d3;
+	height: 200px;
+	overflow: auto;
+	overflow-x: hidden;
+	z-index: 6;
+}
+#wiki {
+	position: absolute;
+	top: 80px;
+	right: 30px;
+	width: 240px;
+	padding: 10px 10px 30px 10px;
+	margin-right: 10px;
+	border: 1px solid #d3d3d3;
+	height: 30%;
+	overflow: auto;
+	overflow-x: hidden;
+	z-index: 5;
+}
+#pano {
+	width: 200px;
+	height: 200px;
+}
+.text {
+	font-size: 12px;
+}
+#banklist {
+	position: absolute;
+	left: 20px;
+	top: 210px;
+	width: 240px;
+	font-size: 16px;
+	
+	z-index: 7;
+}
+
+ul.banklist {
+  margin: 0;
+  padding: 0;
+  max-height: 460px;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.banklist ul, li {
+  list-style-type: none;
+}
+
+.banklist li {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+#bankname{
+	
+	position: absolute;
+	top: 50px;
+	
+}
+.mapErrorHandling {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	display: none;
+	width: 240px;
+}
+@media only screen and (max-width: 800px) {
+	.search {
+		width: 100%;
+		position: absolute;
+		bottom: 10px;
+	}
+	#wiki {
+		position: absolute;
+		top: 470px;
+		left: 30px;
+		width: 240px;
+		padding: 10px 10px 30px 10px;
+		margin-right: 10px;
+		border: 1px solid #d3d3d3;
+		height: 20%;
+		overflow: auto;
+		overflow-x: hidden;
+		z-index: 5;
+	}
+}
+@media only screen and (max-width: 499px) {
+	#wiki {
+		display: none;
+	}
+	#sort {
+		display: none;
+	}
+} 
+
+	  
+	  
+	  
+
+
+
+	  
